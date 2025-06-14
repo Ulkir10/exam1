@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header_img"><img src="Heading 1.png" alt=""></div>
+    <div class="header_main" id="film_type">
+        <input class="input" type="text" id="SearchMovie" placeholder="Enter your movie name">
+        <select class="select" id="Sort">
+            <option value="alphabeticalAsc">A-Z</option>
+            <option value="alphabeticalDesc">Z-A</option>
+            <option value="raiting">1-10</option>
+            <option value="raitn">10-1</option>
+            <option value="year">1980-2000</option>
+            <option value="yearsecond">2000-2020</option>
+        </select>
+        <select class="Sort" id="MovieType">
+            <option value="all">All</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Uncategorized">Uncategorized</option>
+            <option value="Documentary">Documentary</option>
+            <option value="Fantasy">Fantasy</option>
+            <option value="Animation">Animation</option>
+            <option value="Horror">Horror</option>
+        </select>
+        <input type="submit" id="searchButton" value="Search">
+    </div>
+    <div class="containermovies">
+        <div class="card_main">
+    <div class="card">
+        <img src="1200x675mf.jpg.png" alt="" class="film-img">
+        <h1 class="film-name">Patton Oswalt: Annihilation</h1>
+        <ul class="raitings">
+        <li class="raiting">7.4</li>
+        <li class="year">2017</li>
+        <li class="time">1hr 6min</li>
+        </ul>
+        <p class="Categories">Uncategorized</p>
+        <button class="btn">More info</button>
+        </div>
+        </div>
+    </div>
+</div>
+    <script type="module" src="script.js"></script>
+    <script type="module" src="movies.js"></script>
+</body>
+</html>
